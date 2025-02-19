@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+
+    <style>
+        body{
+            background-image: url(background.jpg);
+            background-size: cover;
+        }
+
+        p{
+            color:white;
+        }
+
+        
+
+        input{
+            padding:10px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            opacity: 0.65;
+        }
+
+        button{
+            text-decoration: none;
+            padding: 0.5%;
+            width: 19.7%;
+        }
+
+        .sign:hover{
+            background-color: rgba(248, 0, 0, 0.888);
+        }
+
+        .sign{
+            background-color: red;
+            color: white;
+            border-color: red;
+        }
+
+        .code{
+            opacity: 0.65;
+            padding: 0.5%;
+        }
+        .code:hover{
+            background-color: antiquewhite;
+        }
+
+        .forget{
+            text-decoration: none;
+            color: white;
+        }
+
+        .bg{
+            text-align:center;
+            padding-top: 50px;
+        }
+
+        .check{
+            size: 40px;
+        }
+
+        input[type="checkbox"]{
+            text-align: left
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            opacity: 0.8;
+        }
+        
+
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <img src="N_logo.png" height="90px">
+        <img src="netflix_logo.png" height="60px" style="float: right; padding-right: 16px;">
+    </div>
+
+    <div class="bg">
+        <form>
+            <h1 style="color: white;">Sign-In</h1>
+
+            <input style="width:18.35%;"  type="email" placeholder="Email or Phone Number"  name="Email"><br><br><br>
+
+            <input style="width:18.35%;" type="password" placeholder="Password"  name="password"><br><br>
+
+            <button class="sign">Sign-In</button><br>
+            
+             <p>OR</p>      
+
+            <button class="code"><a href="usingotp.html">Sign-In Using OTP</a></button><br><br>
+
+            <a href="forget.html" class="forget">Forget password?</a><br><br>
+            
+        <div style="align-items: center;">
+            <input type="checkbox" id="Remember me" name="Remember me"><span style="color: white;">Remember me</span>
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>

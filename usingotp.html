@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using code</title>
+    <style>
+        body{
+            background-image: url(background.jpg);
+            background-size: cover;
+            
+        }
+        input{
+            padding:10px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            opacity: 0.65;
+        }
+        .sign:hover{
+            background-color: rgba(248, 0, 0, 0.888);
+        }
+
+        .sign{
+            background-color: red;
+            color: white;
+            border-color: red;
+        }
+        button{
+            text-decoration: none;
+            padding: 0.5%;
+            width: 19.7%;
+        }
+        p{
+            color:white;
+        }
+        .bg{
+            text-align:center;
+            padding-top: 45px;
+        }
+        .forget{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="N_logo.png" height="90px">
+        <img src="netflix_logo.png" height="60px" style="float: right; padding-right: 16px;">
+    </div>
+
+    <div class="bg">
+        <form>
+            <h1 style="color: white;">Sign-In</h1>
+
+            <input style="width:18.35%;"  type="email" placeholder="Phone Number"  name="Email"><br><br>
+
+            <button class="sign">Send OTP</button><br>
+            
+            <p>OR</p>  
+            
+            <a href="forget.html" class="forget">Forget password?</a><br><br>
+            
+        <div style="align-items: center;">   
+            <input type="checkbox" id="Remember me" name="Remember me"><span style="color: white;">Remember me</span>
+        </div>
+        </form>
+    </div>
+    
+</body>
+</html>
